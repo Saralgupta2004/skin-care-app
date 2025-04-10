@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="skin_background">#FFF8F3</color>
+    <color name="skin_primary_dark">#D17087</color> <!-- Darker rose -->
+    <color name="skin_primary">#D3998A</color> <!-- Warm soft brownish-pink -->
+    <color name="skin_secondary">#C98877</color>
+    <color name="skin_text">#333333</color>
+</resources>

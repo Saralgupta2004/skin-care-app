@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skin_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvAnalysisResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SkinSense - Analysis Result"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/skin_primary"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvRecommendations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommended Products"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/skin_primary_dark"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvProductList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="16sp"
+            android:textColor="@color/skin_text"
+            android:background="@drawable/box_background"
+            android:padding="12dp" />
+
+        <!-- NEW Compare Button -->
+        <Button
+            android:id="@+id/btnCompareWithLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compare with Last Image"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/skin_primary"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
